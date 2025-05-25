@@ -17,6 +17,7 @@ export default defineConfig({
       autoImport: true
     })
   ],
+  base: "/Mantis-vuejs-AdminTemplate/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
